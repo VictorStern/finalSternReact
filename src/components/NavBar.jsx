@@ -13,7 +13,7 @@ const NavBar = () => {
 
           <Link to='/'>
             <Flex alignItems='center'>
-              CastaBarber
+            <Text fontSize='35px'>CastaBarber</Text>
               <Spacer mx="5px" />
              
             </Flex>
@@ -25,7 +25,7 @@ const NavBar = () => {
 
           <Menu>
             <MenuButton >
-              <Text fontSize='xl'>Categorias</Text>
+              <Text fontSize='30px'>Categorias</Text>
             </MenuButton>
             <MenuList color={'black'}>
               <MenuItem>

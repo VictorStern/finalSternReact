@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 const Item = ({ producto }) => {
   return (
     <GridItem w='100%'>
-      <Card maxW='sm'>
-        <CardBody>
+      <Card className='cardi' maxW='sm'>
+        <CardBody className='tarjet'>
           <Stack mt='6' spacing='3'>
             <Heading size='md' color='black'>
-              <img src={producto.imagen} alt={producto.nombre} />
+              <img className='imag' src={producto.imagen} alt={producto.nombre} />
               <p>Producto: {producto.nombre}</p>
             </Heading>
             <Text color='black'>Categoría: {producto.tipo}</Text>

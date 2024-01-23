@@ -1,14 +1,51 @@
 .fondo{
   background: url(./assets/fondomadera.jpg);
 }
-.navBar {
+.navBar{
   display: flex;
  
   background-color: rgba(71, 66, 66, 0.212);
-  font-size: 30px;
+}
+.cardi{
+  display: flex;
+  width: 350px;
+  height: auto;
+  object-fit: contain;  
+  box-shadow: 7px 13px rgb(64, 59, 59);
+  border-radius: 50px;
+  background-color: rgb(163, 178, 196);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+} 
+
+.imag {
+  display: flex;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 300px;
+  
+  
+}
+.botonn{
+  padding: 2px 2px;
+  background: rgba(1, 68, 1, 0.562);
+  background-color: rgba(1, 68, 1, 0.562);
+}
+.chakra-menu__menuitem{
+  background-color: blueviolet;
 }
 
-.carrito {
-  position: relative;
-}
+.chakra-container{
 
+  padding-left: 0;
+  margin-top: 25px;
+}
+.cardin{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}

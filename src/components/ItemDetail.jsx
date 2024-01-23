@@ -5,11 +5,11 @@ import ItemCount from './ItemCount'
 
 const ItemDetail = ({ producto }) => {
   return (
-    <Container maxW='50%'>
+    <Container className='cardi' maxW='50%'>
       <Stack mt='6' spacing='3'>
         <Heading size='md' color='black'>
           <Center mb="15px">
-          <img width="30%" src={producto.imagen} alt={producto.nombre} />
+          <img className='imag'  width="30%" src={producto.imagen} alt={producto.nombre} />
           </Center>
          
           <p>Producto: {producto.nombre}</p>
