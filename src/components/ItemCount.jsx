@@ -13,7 +13,7 @@ const ItemCount = ({ producto }) => {
 
     const agregarAlCarrito = () => {
         const productoAgregado = { ...producto, contador }
-        const estaEnElCarrito = cart.find((p) => p.id === producto.id)
+        const estaEnElCarrito = cart.find((item) => item.id === producto.id)
         const newCart = [...cart];
 
 
