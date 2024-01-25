@@ -8,7 +8,7 @@
 }
 .cardi{
   display: flex;
-  width: 350px;
+  width: 300px;
   height: auto;
   object-fit: contain;  
   box-shadow: 7px 13px rgb(64, 59, 59);
@@ -48,4 +48,42 @@
   justify-content: center;
   flex-wrap: wrap;
  
+}
+
+.textDetail{
+  color: black;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.all{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+}
+.cardiSel{
+  background: linear-gradient(to bottom, rgb(208, 232, 240), rgb(208, 232, 240), lightblue, rgb(65, 191, 226));
+
+}
+
+.chakra-heading{
+  margin-top: 35px;
+  margin-bottom: 15px; 
+}
+.chakra-form-control {
+  margin-top: 25px;
+  margin-bottom: 150px;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.chakra-card{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }

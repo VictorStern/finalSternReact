@@ -31,7 +31,7 @@ const Form = () => {
        items: cart,
     }
 
-    const ordersCollection = collection(db, "ordenes")
+    const ordersCollection = collection(db, "orden")
         
         
 

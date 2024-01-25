@@ -17,7 +17,7 @@ const Item = ({ producto }) => {
         </CardBody>
         <CardFooter justify='center'>
           <Link to={`/item/${producto.id}`} >
-            <Button >Ver más</Button>
+            <Button className='botVer'>Ver más</Button>
           </Link>
         </CardFooter>
         <Divider />

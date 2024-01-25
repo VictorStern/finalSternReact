@@ -25,7 +25,7 @@ const NavBar = () => {
 
           <Menu>
             <MenuButton >
-              <Text fontSize='30px'>Categorias</Text>
+              <Text fontSize='30px'>Barbershop</Text>
             </MenuButton>
             <MenuList color={'black'}>
               <MenuItem>

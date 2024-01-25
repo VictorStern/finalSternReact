@@ -14,13 +14,13 @@ const ItemDetail = ({ producto }) => {
          
           <p>Producto: {producto.nombre}</p>
         </Heading>
-        <Text color='black'>Categoría: {producto.tipo}</Text>
-        <Text color='black'>Descripción: {producto.descripcion}</Text>
-        <Text color='black'>Precio: ${producto.precio}</Text>
+        <Text className='textDetail' >Categoría: {producto.tipo}</Text>
+        <Text className='textDetail' >Descripción: {producto.descripcion}</Text>
+        <Text className='textDetail' >Precio: ${producto.precio}</Text>
       </Stack>
       <Center mt="15px">
       <ItemCount producto={producto} />
-      </Center>
+      </Center>      
     </Container>
   )
 }
