@@ -30,7 +30,7 @@ const Cart = () => {
                   src={producto.imagen}
                   alt='produtos'
                 />
-                <Stack className='stackDeCart'>
+                <Stack>
                   <CardBody>
                     <Heading size='md'>{producto.nombre}</Heading>
                     <Text py='0.5'>
@@ -40,7 +40,7 @@ const Cart = () => {
                       Unidades: {producto.contador}
                     </Text>
                   </CardBody>
-                  <CardFooter className='botonEliminarProducto'>
+                  <CardFooter className='botonEliminar'>
                     <Button variant='solid' colorScheme='red'
                       onClick={() => eliminarProducto(producto.id)} >
                       Eliminar producto
@@ -56,7 +56,7 @@ const Cart = () => {
         {
           cart.length > 0 ?
             <>
-              <Text fontSize='2xl' className='precioTotalCarrito'>Precio Total: ${precioTotalCarrito()}</Text>
+              <Text fontSize='2xl'>Precio Total: ${precioTotalCarrito()}</Text>
               <Stack direction='row' spacing={4} align='center'>
                 <Button colorScheme='red' variant='solid' onClick={handleVaciarCart} >
                   Vaciar Carrito

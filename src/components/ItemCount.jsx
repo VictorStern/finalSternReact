@@ -29,12 +29,11 @@ const ItemCount = ({ producto }) => {
     return (
         <div>
             <Button colorScheme='red' size='sm' isDisabled={!contador} onClick={quitarProducto}>-</Button>
-            <Button colorScheme={contador ? 'blue' : 'gray'} size='md' mx='15px' isDisabled={!contador} onClick={agregarAlCarrito}>
-                Add Cart {contador ? `${contador} productos` : ''}
+            <Button  isDisabled={!contador} onClick={agregarAlCarrito}>
+               Add Cart{contador ? `${contador} productos` : ''}
             </Button>
             <Button colorScheme={contador < producto.stock ? 'green' : 'gray'} size='sm' isDisabled={contador >= producto.stock} onClick={agregarProducto}>+</Button>
-        
-        
+          
         </div>
     )
 }
